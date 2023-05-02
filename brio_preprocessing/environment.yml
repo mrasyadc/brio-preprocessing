@@ -1,0 +1,18 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - matplotlib
+  - ipywidgets
+  - scikit-learn
+  - scipy
+  - ipykernel
+  - jupyter
+  - ipython
+  - numpy
+  - jupyterlab
+  - pandas
+  - mamba
+  - openpyxl
+prefix: C:\Users\mrcra\anaconda3\envs\briopreenv

@@ -1,0 +1,5 @@
+cat test.out | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > test.out.tokenized
+
+cat test.source | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > test.source.tokenized
+
+cat test.target | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > test.target.tokenized
