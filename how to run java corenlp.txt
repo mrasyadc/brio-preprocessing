@@ -3,3 +3,15 @@ cat test.out | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveL
 cat test.source | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > test.source.tokenized
 
 cat test.target | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > test.target.tokenized
+
+cat train.out | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > train.out.tokenized
+
+cat train.source | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > train.source.tokenized
+
+cat train.target | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > train.target.tokenized
+
+cat val.out | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > val.out.tokenized
+
+cat val.source | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > val.source.tokenized
+
+cat val.target | java edu.stanford.nlp.process.PTBTokenizer -ioFileList -preserveLines > val.target.tokenized
